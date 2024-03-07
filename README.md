@@ -14,6 +14,7 @@ Esta API simplifica o processo de envio de e-mails utilizando a infraestrutura c
     "html": "<p>Conteúdo em HTML do E-mail</p>",
     "text": "Conteúdo de texto do E-mail"
   }
+  ```
 
 # Configuração do Arquivo .env
 
@@ -25,3 +26,13 @@ Para utilizar a API, siga os passos abaixo para configurar o arquivo `.env` com 
   USER= seuemail@gmail.com
   PASSWORD= suasenha
   NAME= Seu Nome
+```
+# Como Usar
+
+1. Clone este repositório.
+2. Crie o arquivo `.env` na raiz da api.
+3. Configure o arquivo .env com suas informações.
+4. Instale as dependências utilizando npm install.
+5. Instale as dependências utilizando npm install.
+
+Agora você está pronto para começar a enviar e-mails por meio da API!

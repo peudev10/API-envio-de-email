@@ -1,2 +1,27 @@
-# API-envio-de-email
-API para envio de email usando uma conta gmail.
+# API de Envio de Email com Gmail
+
+Esta API simplifica o processo de envio de e-mails utilizando a infraestrutura confiável do Gmail. Com um endpoint fácil de usar e configuração flexível por meio do arquivo `.env`, você pode integrar facilmente a funcionalidade de envio de e-mails em seus projetos.
+
+## Recursos Principais
+
+- **Endpoint:** `/enviarEmail`
+- **Método:** POST
+- **Corpo da Requisição:**
+  ```json
+  {
+    "to": "destinatario@example.com",
+    "subject": "Assunto do E-mail",
+    "html": "<p>Conteúdo em HTML do E-mail</p>",
+    "text": "Conteúdo de texto do E-mail"
+  }
+
+# Configuração do Arquivo .env
+
+Para utilizar a API, siga os passos abaixo para configurar o arquivo `.env` com as informações necessárias. As seguintes variáveis são requeridas:
+
+  ```env
+  PORT= 3000
+  FROM= Seu Nome <seuemail@gmail.com>
+  USER= seuemail@gmail.com
+  PASSWORD= suasenha
+  NAME= Seu Nome
